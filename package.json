@@ -1,0 +1,77 @@
+{
+  "_from": "upwork-api@^1.2.4",
+  "_inBundle": false,
+  "_integrity": "sha1-04HwnlKHU55CPq0f2OuTwGUpavw=",
+  "_location": "/upwork-api",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "upwork-api@^1.2.4",
+    "name": "upwork-api",
+    "escapedName": "upwork-api",
+    "rawSpec": "^1.2.4",
+    "saveSpec": null,
+    "fetchSpec": "^1.2.4"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/upwork-api/-/upwork-api-1.2.4.tgz",
+  "_shasum": "d381f09e5287539e423ead1fd8eb93c065296afc",
+  "_spec": "upwork-api@^1.2.4",
+  "_where": "C:\\Users\\Charmi\\myapp",
+  "author": "Maksym Novozhylov <mnovozhilov@upwork.com>",
+  "bugs": {
+    "url": "https://github.com/upwork/node-upwork/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    "Maksym Novozhylov (https://github.com/mnovozhylov)"
+  ],
+  "dependencies": {
+    "async": "^2.6.0",
+    "express": "^4.16.3",
+    "msnodesqlv8": "^0.5.1",
+    "mssql": "^4.1.0",
+    "node-mssql": "0.0.1",
+    "node-upwork": "0.0.7",
+    "oauth": "0.9.10",
+    "pkginfo": "*",
+    "tedious": "^2.3.1",
+    "webpack-dev-server": "^1.8.0"
+  },
+  "deprecated": false,
+  "description": "Node.JS bindings for Upwork API",
+  "devDependencies": {
+    "mocha": "~1.21.4"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "homepage": "https://developers.upwork.com",
+  "keywords": [
+    "oauth",
+    "rest",
+    "upwork",
+    "api",
+    "wrapper"
+  ],
+  "main": "index",
+  "name": "upwork-api",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/upwork/node-upwork.git"
+  },
+  "scripts": {
+    "test": "mocha --timeout 3500",
+    "start": "node myapp.js"
+  },
+  "version": "1.2.4",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "license": "ISC"
+}
